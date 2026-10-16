@@ -1,0 +1,262 @@
+<resources>
+    <string name="app_name">VentaRopa</string>
+    <string name="facebook_app_id">1581952206379251</string>
+    <string name="fb_login_protocol_scheme">fb1581952206379251</string>
+    <string name="facebook_client_token">7c9967857bcbb69cadf8609f7739acf6</string>
+
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="guardar">Guardar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="precio_formato">S/ %1$.2f</string>
+
+    <string name="splash_subtitulo">Tu estilo, tu esencia</string>
+
+    <string name="login_bienvenido">Bienvenido</string>
+    <string name="login_subtitulo">Inicia sesión para continuar</string>
+    <string name="login_correo">Correo Electrónico</string>
+    <string name="login_usuario">Usuario</string>
+    <string name="login_contrasena">Contraseña</string>
+    <string name="login_iniciar">Iniciar Sesión</string>
+    <string name="login_sin_cuenta">¿No tienes cuenta? </string>
+    <string name="login_registrarse">Regístrate</string>
+    <string name="login_recuperar">¿Olvidaste tu contraseña?</string>
+    <string name="login_como_admin">Ingresar como Administrador</string>
+    <string name="login_como_usuario">Ingresar como Usuario</string>
+    <string name="login_facebook">Ingresar con Facebook</string>
+    <string name="login_facebook_cancelado">Login con Facebook cancelado</string>
+    <string name="login_facebook_error">Error en Facebook Login</string>
+
+    <string name="registro_titulo">Crear Cuenta</string>
+    <string name="registro_subtitulo">Únete a VentaRopa</string>
+    <string name="registro_nombre">Nombre Completo</string>
+    <string name="registro_correo">Correo Electrónico</string>
+    <string name="registro_usuario">Usuario</string>
+    <string name="registro_contrasena">Contraseña</string>
+    <string name="registro_confirmar">Confirmar Contraseña</string>
+    <string name="registro_crear">Crear Cuenta</string>
+    <string name="registro_ya_cuenta">¿Ya tienes cuenta? </string>
+    <string name="registro_iniciar">Inicia Sesión</string>
+
+    <string name="recuperar_titulo">Recuperar Contraseña</string>
+    <string name="recuperar_subtitulo">Ingresa tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña</string>
+    <string name="recuperar_correo">Correo Electrónico</string>
+    <string name="recuperar_enviar">Enviar Enlace</string>
+    <string name="recuperar_volver">Volver al inicio de sesión</string>
+    <string name="recuperar_enviado">Se ha enviado un enlace a tu correo</string>
+
+    <string name="inicio_hola">Hola, %1$s</string>
+    <string name="inicio_subtitulo">¿Qué buscas hoy?</string>
+    <string name="inicio_categorias">Categorías</string>
+    <string name="inicio_destacados">Destacados</string>
+    <string name="inicio_novedades">Novedades</string>
+    <string name="inicio_ver_todo">Ver Todo</string>
+    <string name="inicio_buscar">Buscar prendas…</string>
+
+    <string name="cat_todos">Todos</string>
+    <string name="cat_camisas">Camisas</string>
+    <string name="cat_pantalones">Pantalones</string>
+    <string name="cat_vestidos">Vestidos</string>
+    <string name="cat_zapatos">Zapatos</string>
+    <string name="cat_accesorios">Accesorios</string>
+    <string name="cat_chaquetas">Chaquetas</string>
+
+    <string name="coleccion_todos">Todos</string>
+    <string name="coleccion_destacados">Destacados</string>
+    <string name="coleccion_novedades">Novedades</string>
+    <string name="coleccion_basicos">Básicos</string>
+
+    <string name="catalogo_titulo">Catálogo</string>
+    <string name="catalogo_buscar">Buscar prendas…</string>
+    <string name="catalogo_sin_resultados">No se encontraron prendas</string>
+    <string name="catalogo_filtrar">Filtrar</string>
+
+    <string name="detalle_titulo">Detalle de Prenda</string>
+    <string name="detalle_descripcion">Descripción</string>
+    <string name="detalle_talla">Talla</string>
+    <string name="detalle_color">Color</string>
+    <string name="detalle_cantidad">Cantidad</string>
+    <string name="detalle_agregar">Agregar al Carrito</string>
+    <string name="detalle_agregado">¡Agregado al carrito!</string>
+    <string name="detalle_selecciona_talla">Selecciona una talla</string>
+    <string name="detalle_selecciona_color">Selecciona un color</string>
+
+    <string name="carrito_titulo">Mi Carrito</string>
+    <string name="carrito_vacio">Tu carrito está vacío</string>
+    <string name="carrito_vacio_titulo">Tu carrito está vacío</string>
+    <string name="carrito_vacio_desc">Explora nuestro catálogo y agrega tus prendas favoritas</string>
+    <string name="carrito_subtotal">Subtotal</string>
+    <string name="carrito_envio">Envío</string>
+    <string name="carrito_total">Total</string>
+    <string name="carrito_realizar_pedido">Realizar Pedido</string>
+    <string name="carrito_eliminar">Eliminar</string>
+    <string name="carrito_gratis">Gratis</string>
+    <string name="carrito_ir_catalogo">Ir al Catálogo</string>
+    <string name="carrito_cantidad">Cantidad: %1$d</string>
+
+    <string name="pedido_titulo">Realizar Pedido</string>
+    <string name="pedido_datos_envio">Datos de Envío</string>
+    <string name="pedido_direccion">Dirección</string>
+    <string name="pedido_calle">Calle y número</string>
+    <string name="pedido_ciudad">Ciudad</string>
+    <string name="pedido_codigo_postal">Código Postal</string>
+    <string name="pedido_telefono">Teléfono</string>
+    <string name="pedido_metodo_pago">Método de Pago</string>
+    <string name="pedido_tarjeta">Tarjeta de Crédito / Débito</string>
+    <string name="pedido_efectivo">Pago en Efectivo</string>
+    <string name="pedido_transferencia">Transferencia Bancaria</string>
+    <string name="pedido_confirmar">Confirmar Pedido</string>
+    <string name="pedido_resumen">Resumen del Pedido</string>
+    <string name="pedido_confirmado_titulo">¡Pedido Confirmado!</string>
+    <string name="pedido_confirmado_desc">Tu pedido ha sido registrado exitosamente. Puedes ver el estado en tu historial.</string>
+    <string name="pedido_ir_inicio">Ir al Inicio</string>
+    <string name="pedido_articulos">%1$d artículo(s)</string>
+
+    <string name="historial_titulo">Mis Pedidos</string>
+    <string name="historial_vacio">No tienes pedidos aún</string>
+    <string name="historial_vacio_titulo">No tienes pedidos aún</string>
+    <string name="historial_vacio_desc">Cuando realices un pedido, aparecerá aquí</string>
+    <string name="historial_descargar">Descargar Reporte</string>
+    <string name="historial_fecha">Fecha: %1$s</string>
+    <string name="historial_numero">Pedido #%1$s</string>
+
+    <string name="estado_pendiente">Pendiente</string>
+    <string name="estado_en_curso">En Curso</string>
+    <string name="estado_entregado">Entregado</string>
+
+    <string name="perfil_titulo">Mi Perfil</string>
+    <string name="perfil_nombre">Nombre</string>
+    <string name="perfil_correo">Correo</string>
+    <string name="perfil_telefono">Teléfono</string>
+    <string name="perfil_direccion">Dirección</string>
+    <string name="perfil_cerrar_sesion">Cerrar Sesión</string>
+    <string name="perfil_editar">Editar Perfil</string>
+    <string name="perfil_guardar">Guardar Cambios</string>
+    <string name="perfil_pedidos_realizados">Pedidos Realizados</string>
+    <string name="perfil_miembro_desde">Miembro desde</string>
+    <string name="perfil_info_personal">Información Personal</string>
+    <string name="perfil_rol">Rol de Usuario</string>
+    <string name="rol_cliente">Cliente</string>
+    <string name="rol_admin">Administrador</string>
+
+    <string name="admin_titulo">Panel Administrador</string>
+    <string name="admin_pedidos">Gestión de Pedidos</string>
+    <string name="admin_pedidos_titulo">Gestión de Pedidos</string>
+    <string name="admin_actualizar">Actualizar Estado</string>
+    <string name="admin_cambiar_estado">Actualizar Estado</string>
+    <string name="admin_cliente">Cliente: %1$s</string>
+    <string name="admin_total_pedidos">Total Pedidos</string>
+    <string name="admin_pendientes">Pendientes</string>
+    <string name="admin_en_curso">En Curso</string>
+    <string name="admin_entregados">Entregados</string>
+    <string name="admin_perfil">Perfil Admin</string>
+    <string name="admin_resumen">Resumen</string>
+    <string name="admin_subtitulo_perfil">Panel de Control • Administrador General</string>
+    <string name="admin_metricas_generales">Métricas Generales</string>
+    <string name="admin_ingresos_totales">Ingresos Totales</string>
+    <string name="admin_cuenta_titulo">Cuenta de Administrador</string>
+    <string name="admin_catalogo_titulo">Gestión de Catálogo</string>
+    <string name="admin_catalogo_subtitulo">Administra los productos de la tienda</string>
+    <string name="admin_agregar_prenda">Agregar Prenda</string>
+    <string name="admin_editar_prenda">Editar Prenda</string>
+    <string name="admin_eliminar_prenda">Eliminar Prenda</string>
+    <string name="admin_confirmar_eliminar">¿Estás seguro de que deseas eliminar este producto del catálogo?</string>
+    <string name="admin_cargar_inicial">Cargar Catálogo de Muestra</string>
+    <string name="admin_prenda_guardada">Prenda guardada exitosamente</string>
+    <string name="admin_prenda_eliminada">Prenda eliminada exitosamente</string>
+    <string name="admin_prenda_nombre">Nombre del Producto</string>
+    <string name="admin_prenda_descripcion">Descripción</string>
+    <string name="admin_prenda_precio">Precio (S/)</string>
+    <string name="admin_prenda_stock">Stock</string>
+    <string name="admin_prenda_categoria">Categoría</string>
+    <string name="admin_prenda_tallas">Tallas (ej: S, M, L)</string>
+    <string name="admin_prenda_colores">Colores (ej: Negro, Blanco)</string>
+    <string name="admin_prenda_destacado">Producto Destacado</string>
+    <string name="admin_prenda_novedad">Producto Novedad</string>
+    <string name="admin_sin_prendas">No hay productos en el catálogo</string>
+    <string name="admin_sin_prendas_desc">Presiona el botón de abajo para agregar una prenda o cargar datos de muestra</string>
+
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_catalogo">Catálogo</string>
+    <string name="nav_carrito">Carrito</string>
+    <string name="nav_pedidos">Pedidos</string>
+    <string name="nav_perfil">Perfil</string>
+
+    <string name="dialogo_eliminar_titulo">Eliminar Artículo</string>
+    <string name="dialogo_eliminar_desc">¿Estás seguro de eliminar este artículo del carrito?</string>
+    <string name="dialogo_cerrar_titulo">Cerrar Sesión</string>
+    <string name="dialogo_cerrar_desc">¿Estás seguro de que deseas cerrar sesión?</string>
+    <string name="dialogo_pedido_titulo">Confirmar Pedido</string>
+    <string name="dialogo_pedido_desc">¿Deseas confirmar tu pedido?</string>
+    <string name="dialogo_si">Sí</string>
+    <string name="dialogo_no">No</string>
+    <string name="dialogo_reporte_titulo">Reporte Descargado</string>
+    <string name="dialogo_reporte_desc">El reporte PDF se ha guardado exitosamente en tu carpeta de Descargas.</string>
+    <string name="dialogo_reporte_sin_pedidos_titulo">Sin Pedidos</string>
+    <string name="dialogo_reporte_sin_pedidos_desc">No tienes pedidos registrados para generar el reporte.</string>
+    <string name="dialogo_reporte_sin_pedidos_filtro_desc">No tienes pedidos con el filtro seleccionado para generar el reporte.</string>
+    <string name="dialogo_estado_titulo">Cambiar Estado</string>
+    <string name="dialogo_estado_desc">Selecciona el nuevo estado del pedido</string>
+    <string name="reporte_descargado_descargas">Reporte guardado en la carpeta Descargas</string>
+    <string name="perfil_editar_campo">Editar campo</string>
+    <string name="perfil_guardar_campo">Aceptar cambio</string>
+    <string name="perfil_cancelar_campo">Cancelar cambio</string>
+    <string name="perfil_hint_telefono">Ingresa número de teléfono</string>
+    <string name="perfil_hint_direccion">Ingresa tu dirección</string>
+    <string name="perfil_sin_datos">—</string>
+    <string name="pedido_direccion_perfil_aviso">Dirección predeterminada de tu perfil. Puedes editarla para este pedido.</string>
+
+    <string name="error_campo_requerido">Este campo es requerido</string>
+    <string name="error_correo_invalido">Correo electrónico no válido</string>
+    <string name="error_contrasena_corta">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_contrasena_no_coincide">Las contraseñas no coinciden</string>
+
+    <string name="talla_xs">XS</string>
+    <string name="talla_s">S</string>
+    <string name="talla_m">M</string>
+    <string name="talla_l">L</string>
+    <string name="talla_xl">XL</string>
+    <string name="talla_xxl">XXL</string>
+    <string name="talla_36">36</string>
+    <string name="talla_37">37</string>
+    <string name="talla_38">38</string>
+    <string name="talla_39">39</string>
+    <string name="talla_40">40</string>
+    <string name="talla_41">41</string>
+    <string name="talla_42">42</string>
+    <string name="talla_unica">Única</string>
+
+    <string name="snackbar_agregado">Prenda agregada al carrito</string>
+    <string name="snackbar_eliminado">Artículo eliminado del carrito</string>
+    <string name="snackbar_estado_actualizado">Estado del pedido actualizado</string>
+    <string name="snackbar_perfil_actualizado">Perfil actualizado exitosamente</string>
+    <string name="snackbar_enlace_enviado">Enlace de recuperación enviado</string>
+
+    <string name="conexion_sin_internet_titulo">Conexión sin internet</string>
+    <string name="conexion_sin_internet_desc">El aplicativo requiere conexión a internet para funcionar. Por favor verifica tu conectividad para continuar.</string>
+    <string name="conexion_reintentar">Reintentar</string>
+    <string name="conexion_salir">Salir del aplicativo</string>
+
+    <string name="auth_error_credenciales">Usuario o contraseña incorrectos</string>
+    <string name="auth_error_correo_en_uso">El correo electrónico ya está registrado</string>
+    <string name="auth_error_correo_no_registrado">El correo electrónico no se encuentra registrado en el sistema</string>
+    <string name="auth_error_generico">Error al conectar con el servidor</string>
+    <string name="auth_cargando">Procesando solicitud…</string>
+    <string name="reporte_exito">Reporte generado y guardado exitosamente</string>
+
+    <string name="foto_titulo">Foto de la prenda</string>
+    <string name="foto_tomar">Tomar foto</string>
+    <string name="foto_galeria">Galería</string>
+    <string name="foto_cambiar">Cambiar foto</string>
+    <string name="foto_quitar">Quitar foto</string>
+    <string name="foto_toca_para_agregar">Toca para agregar una foto</string>
+
+    <string name="prenda_disponibles">(%1$d disponibles)</string>
+    <string name="prenda_sin_stock">Sin stock</string>
+    <string name="prenda_sin_stock_badge">SIN STOCK</string>
+    <string name="prenda_stock_insuficiente">No hay suficiente stock disponible</string>
+    <string name="error_pedido_sin_stock">Uno o más productos no cuentan con stock disponible para realizar el pedido</string>
+    <string name="snackbar_sin_stock">Producto sin stock disponible</string>
+    <string name="admin_stock_formato">Stock: %1$d</string>
+</resources>

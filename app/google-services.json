@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "599179251012",
+    "project_id": "ventaropa-29b74",
+    "storage_bucket": "ventaropa-29b74.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599179251012:android:413471e93e999807df5b11",
+        "android_client_info": {
+          "package_name": "com.cibertec.inventario"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqzbtGvTkO-Fz9-r_9TCTn1VsSJUlazG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
