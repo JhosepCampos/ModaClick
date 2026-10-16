@@ -72,7 +72,7 @@ class PedidosViewModel(
 
         val fecha = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault()).format(Date())
         val nuevoPedido = Pedido(
-            id = "VR-${1000 + (1..9999).random()}",
+            id = "MC-${1000 + (1..9999).random()}",
             clienteId = usuario.id,
             clienteNombre = usuario.nombreCompleto,
             clienteCorreo = usuario.correo,

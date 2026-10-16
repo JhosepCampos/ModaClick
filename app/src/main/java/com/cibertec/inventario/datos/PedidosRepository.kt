@@ -27,7 +27,7 @@ class PedidosRepository {
     suspend fun crearPedido(pedido: Pedido): Result<String> {
         return try {
             val db = firestore ?: return Result.failure(Exception("Base de datos no disponible"))
-            val id = if (pedido.id.isNotBlank()) pedido.id else "VR-${1000 + (1..9999).random()}"
+            val id = if (pedido.id.isNotBlank()) pedido.id else "MC-${1000 + (1..9999).random()}"
             val pedidoConId = pedido.copy(
                 id = id,
                 clienteCorreo = pedido.clienteCorreo.trim().lowercase()

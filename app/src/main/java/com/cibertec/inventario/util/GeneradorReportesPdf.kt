@@ -136,7 +136,7 @@ object GeneradorReportesPdf {
             fun verificarNuevaPagina(espacioRequerido: Float) {
                 if (yPos + espacioRequerido > 780f) {
                     canvas.drawText(
-                        "VentaRopa App © 2026 - Reporte emitido electrónicamente. | Página $paginaActual",
+                        "ModaClick App © 2026 - Reporte emitido electrónicamente. | Página $paginaActual",
                         40f,
                         810f,
                         paintPie
@@ -147,14 +147,14 @@ object GeneradorReportesPdf {
                     canvas = page.canvas
                     yPos = 50f
 
-                    canvas.drawText("VentaRopa - $tituloReporte (Continuación)", 40f, yPos, paintTitulo)
+                    canvas.drawText("ModaClick - $tituloReporte (Continuación)", 40f, yPos, paintTitulo)
                     yPos += 14f
                     canvas.drawLine(40f, yPos, 555f, yPos, paintLineaDorada)
                     yPos += 20f
                 }
             }
 
-            canvas.drawText("VentaRopa - Tienda Exclusiva", 40f, yPos, paintTitulo)
+            canvas.drawText("ModaClick - Tienda Exclusiva", 40f, yPos, paintTitulo)
             yPos += 20f
             canvas.drawText(tituloReporte, 40f, yPos, paintSubtitulo)
             yPos += 16f
@@ -260,7 +260,7 @@ object GeneradorReportesPdf {
             yPos += 50f
 
             canvas.drawText(
-                "VentaRopa App © 2026 - Reporte emitido electrónicamente. | Página $paginaActual",
+                "ModaClick App © 2026 - Reporte emitido electrónicamente. | Página $paginaActual",
                 40f,
                 810f,
                 paintPie
@@ -269,7 +269,7 @@ object GeneradorReportesPdf {
             pdfDocument.finishPage(page)
 
             val timestamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
-            val nombreArchivo = "Reporte_VentaRopa_${timestamp}.pdf"
+            val nombreArchivo = "Reporte_ModaClick_${timestamp}.pdf"
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
                 val contentValues = ContentValues().apply {

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">VentaRopa</string>
+    <string name="app_name">ModaClick</string>
     <string name="facebook_app_id">1581952206379251</string>
     <string name="fb_login_protocol_scheme">fb1581952206379251</string>
     <string name="facebook_client_token">7c9967857bcbb69cadf8609f7739acf6</string>
@@ -29,7 +29,7 @@
     <string name="login_facebook_error">Error en Facebook Login</string>
 
     <string name="registro_titulo">Crear Cuenta</string>
-    <string name="registro_subtitulo">Únete a VentaRopa</string>
+    <string name="registro_subtitulo">Únete a ModaClick</string>
     <string name="registro_nombre">Nombre Completo</string>
     <string name="registro_correo">Correo Electrónico</string>
     <string name="registro_usuario">Usuario</string>
