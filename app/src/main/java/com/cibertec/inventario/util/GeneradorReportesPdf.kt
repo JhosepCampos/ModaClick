@@ -136,7 +136,7 @@ object GeneradorReportesPdf {
             fun verificarNuevaPagina(espacioRequerido: Float) {
                 if (yPos + espacioRequerido > 780f) {
                     canvas.drawText(
-                        "ModaClick App © 2026 - Reporte emitido electrónicamente. | Página $paginaActual",
+                        "ModaClick App - Reporte emitido electrónicamente. | Página $paginaActual",
                         40f,
                         810f,
                         paintPie
@@ -260,7 +260,7 @@ object GeneradorReportesPdf {
             yPos += 50f
 
             canvas.drawText(
-                "ModaClick App © 2026 - Reporte emitido electrónicamente. | Página $paginaActual",
+                "ModaClick App - Reporte emitido electrónicamente. | Página $paginaActual",
                 40f,
                 810f,
                 paintPie

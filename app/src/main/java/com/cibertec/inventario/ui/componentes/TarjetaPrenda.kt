@@ -99,7 +99,7 @@ fun TarjetaPrenda(
                     descripcion = prenda.nombre
                 )
 
-                Box(
+                /*Box(
                     modifier = Modifier
                         .align(Alignment.TopEnd)
                         .padding(8.dp)
@@ -124,7 +124,7 @@ fun TarjetaPrenda(
                             fontWeight = FontWeight.Bold
                         )
                     }
-                }
+                }*/
 
                 if (prenda.stock <= 0) {
                     Box(
@@ -196,7 +196,7 @@ fun TarjetaPrenda(
                         fontWeight = FontWeight.Bold
                     )
 
-                    if (alAgregarCarrito != null) {
+                    /*if (alAgregarCarrito != null) {
                         val sinStock = prenda.stock <= 0
                         Box(
                             modifier = Modifier
@@ -213,7 +213,7 @@ fun TarjetaPrenda(
                                 modifier = Modifier.size(16.dp)
                             )
                         }
-                    }
+                    }*/
                 }
             }
         }

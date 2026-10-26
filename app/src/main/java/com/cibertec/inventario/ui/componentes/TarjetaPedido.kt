@@ -6,10 +6,12 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Download
@@ -29,9 +31,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.cibertec.inventario.R
+import com.cibertec.inventario.modelo.Categoria
 import com.cibertec.inventario.modelo.EstadoPedido
 import com.cibertec.inventario.modelo.Pedido
 import com.cibertec.inventario.ui.theme.AlertaNaranja
@@ -131,23 +135,70 @@ fun TarjetaPedido(
             HorizontalDivider(color = BordeSutil, thickness = 1.dp)
             Spacer(modifier = Modifier.height(10.dp))
 
-            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 pedido.items.forEach { item ->
+                    val catEnum = try {
+                        Categoria.valueOf(item.prendaCategoria.uppercase())
+                    } catch (e: Exception) {
+                        Categoria.TODOS
+                    }
+
                     Row(
                         modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceBetween
+                        verticalAlignment = Alignment.CenterVertically
                     ) {
-                        Text(
-                            text = "${item.cantidad}x ${item.prendaNombre} (${item.tallaSeleccionada})",
-                            color = TextoGrisClaro,
-                            fontSize = 13.sp,
-                            maxLines = 1
-                        )
+                        Box(
+                            modifier = Modifier
+                                .size(48.dp)
+                                .clip(RoundedCornerShape(8.dp)),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            ImagenPrenda(
+                                imagenUrl = item.prendaImagenUrl,
+                                categoria = catEnum,
+                                modifier = Modifier.fillMaxSize(),
+                                tamanoIconoFallback = 24.dp,
+                                descripcion = item.prendaNombre
+                            )
+                        }
+
+                        Spacer(modifier = Modifier.width(10.dp))
+
+                        Column(
+                            modifier = Modifier.weight(1f)
+                        ) {
+                            Text(
+                                text = "${item.cantidad}x ${item.prendaNombre}",
+                                color = TextoBlanco,
+                                fontSize = 13.sp,
+                                fontWeight = FontWeight.SemiBold,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis
+                            )
+                            Spacer(modifier = Modifier.height(2.dp))
+                            val detalles = buildString {
+                                append("Talla: ${item.tallaSeleccionada}")
+                                if (item.colorSeleccionado.isNotBlank()) {
+                                    append(" • ${item.colorSeleccionado}")
+                                }
+                            }
+                            Text(
+                                text = detalles,
+                                color = TextoMuted,
+                                fontSize = 11.sp,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis
+                            )
+                        }
+
+                        Spacer(modifier = Modifier.width(8.dp))
+
                         Text(
                             text = stringResource(id = R.string.precio_formato, item.subtotal),
-                            color = TextoGrisClaro,
+                            color = DoradoPrimario,
                             fontSize = 13.sp,
-                            fontWeight = FontWeight.Medium
+                            fontWeight = FontWeight.Bold,
+                            maxLines = 1
                         )
                     }
                 }

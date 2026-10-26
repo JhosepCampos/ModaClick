@@ -92,15 +92,15 @@ fun PantallaInicio(
                 fontWeight = FontWeight.Bold,
                 color = TextoBlanco
             )
-            Spacer(modifier = Modifier.height(4.dp))
+            /*Spacer(modifier = Modifier.height(4.dp))
             Text(
                 text = stringResource(id = R.string.inicio_subtitulo),
                 fontSize = 14.sp,
                 color = TextoMuted
-            )
+            )*/
         }
 
-        Box(
+        /*Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = 20.dp)
@@ -126,7 +126,7 @@ fun PantallaInicio(
             }
         }
 
-        Spacer(modifier = Modifier.height(20.dp))
+        Spacer(modifier = Modifier.height(20.dp))*/
 
         Card(
             modifier = Modifier

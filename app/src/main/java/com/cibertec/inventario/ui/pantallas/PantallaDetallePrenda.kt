@@ -121,7 +121,7 @@ fun PantallaDetallePrenda(
                     descripcion = prenda.nombre
                 )
 
-                Box(
+                /*Box(
                     modifier = Modifier
                         .align(Alignment.BottomEnd)
                         .padding(16.dp)
@@ -146,7 +146,7 @@ fun PantallaDetallePrenda(
                             fontWeight = FontWeight.SemiBold
                         )
                     }
-                }
+                }*/
             }
 
             Column(

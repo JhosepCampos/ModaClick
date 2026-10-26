@@ -91,12 +91,12 @@ fun PantallaRegistro(
 
             Spacer(modifier = Modifier.height(6.dp))
 
-            Text(
+            /*Text(
                 text = stringResource(id = R.string.registro_subtitulo),
                 fontSize = 14.sp,
                 color = TextoMuted,
                 modifier = Modifier.fillMaxWidth()
-            )
+            )*/
 
             if (!errorServidor.isNullOrBlank()) {
                 Spacer(modifier = Modifier.height(10.dp))
